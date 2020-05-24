@@ -10,9 +10,6 @@ import pandas as pd
 # Load In Data #
 df = pd.read_csv('https://raw.githubusercontent.com/aLeadPencil/SimpleFlaskDashIntegration/master/Iris.csv?token=AKXMDUQVY5XI7KHWI2ZGS3K62P6HY')
 column_names = df.columns.to_list()[1:-1]
-available_indicators = df['Species'].unique()
-
-print(column_names)
 
 
 # Define a Function For Generating DataFrame #
@@ -173,7 +170,6 @@ iris_dash.layout = html.Div(
     
     style = {
         'background': '#ADD8E6',
-        # 'background': '#112D32',
         'padding': '50px'
     }
 )
