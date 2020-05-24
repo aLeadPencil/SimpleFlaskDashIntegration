@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output, State
 import pandas as pd
 
 # Load In Data #
-df = pd.read_csv('iris.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/aLeadPencil/SimpleFlaskDashIntegration/master/Iris.csv?token=AKXMDUQVY5XI7KHWI2ZGS3K62P6HY')
 column_names = df.columns.to_list()[1:-1]
 available_indicators = df['Species'].unique()
 
