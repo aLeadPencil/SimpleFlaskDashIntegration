@@ -12,7 +12,7 @@ import numpy as np
 
 
 # Load In Data #
-df = pd.read_csv('iris.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/aLeadPencil/SimpleFlaskDashIntegration/master/Iris.csv?token=AKXMDUQVY5XI7KHWI2ZGS3K62P6HY')
 model = pickle.load(open('logistic_regression_model.pkl', 'rb'))
 column_names = df.columns.to_list()[1:-1]
 
