@@ -3,4 +3,4 @@
 ### Python web development example using Flask and Dash.
 ### Deployed via Heroku
 
-#### Working Demo: https://simple-flask-dash-integration.herokuapp.com/
+#### Working Demo (May take a minute to load): https://simple-flask-dash-integration.herokuapp.com/
